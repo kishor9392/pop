@@ -1,0 +1,32 @@
+.aboutBg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.aboutIcon {
+  height: 120px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutIcon {
+    height: 600px;
+    width: 700px;
+  }
+}
+
+.aboutH1 {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutH1 {
+    font-size: 28px;
+  }
+}

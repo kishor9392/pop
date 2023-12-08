@@ -1,0 +1,61 @@
+.HeadBg {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.headImg {
+  width: 30px;
+}
+
+@media screen and (min-width) {
+  .headImg {
+    width: 50px;
+  }
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  margin: 3px;
+}
+
+.menu {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.closeBg {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.mg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}

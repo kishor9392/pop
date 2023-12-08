@@ -1,0 +1,45 @@
+.notBg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.notImg {
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .notImg {
+    width: 380px;
+  }
+}
+
+.notH1 {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .notH1 {
+    font-size: 38px;
+  }
+}
+
+.notP {
+  color: #616e7c;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .notP {
+    font-size: 28px;
+  }
+}
